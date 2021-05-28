@@ -9,8 +9,6 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { connect } from 'react-redux';
 import { setCurrentUser } from './redux/user/user.actions';
 
-// import {dis} from 'react-redux'
-
 class App extends React.Component {
   unSubscribeFromAuth = null;
 
